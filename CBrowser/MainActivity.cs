@@ -13,6 +13,8 @@ namespace CBrowser
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            Albergue a = new Albergue("langdraget","Nikolai",5,31431499,true,true,true,false);
+
         }
     }
 }
